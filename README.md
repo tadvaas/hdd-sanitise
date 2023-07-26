@@ -1,10 +1,10 @@
-# DataWipeNReport
+# hdd-sanitise
 
 A comprehensive HDD sanitization and reporting script for Unix-based systems.
 
 ## Description
 
-`DataWipeNReport` is a bash script designed to automate the process of HDD sanitization. It not only wipes data but also runs SMART and badblocks tests, creates erasure certificates, and converts these certificates to PDF.
+`hdd-sanitise` is a bash script designed to automate the process of HDD sanitization. It not only wipes data but also runs SMART and badblocks tests, creates erasure certificates, and converts these certificates to PDF.
 
 ## Prerequisites
 
