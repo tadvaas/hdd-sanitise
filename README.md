@@ -36,7 +36,7 @@ sudo chmod +x hdd
 
 ## Usage
 
-Once you have set up your environment, you can run the hdd_sanitise.sh script with root privileges.
+Once you have set up your environment, you can run the hdd-sanitise.sh script with root privileges.
 
 ## Note for Mac users
 
