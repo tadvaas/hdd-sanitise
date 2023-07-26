@@ -11,16 +11,20 @@ A comprehensive HDD sanitization and reporting script for Unix-based systems.
 Ubuntu 22.04
 Before running the script, you need to install some necessary tools. Run the following commands:
 
+```
 sudo apt-get update && sudo apt-get install smartmontools pv nfs-kernel-server enscript ghostscript hdparm
 sudo mkdir -p /mnt/nfs
 sudo chown nobody:nogroup /mnt/nfs
 sudo chmod 777 /mnt/nfs
 sudo nano /etc/exports
+```
 
 In the exports file, add the following lines:
 
+```
 /mnt/nfs 192.168.1.0/24(rw,sync,no_subtree_check) #enter correct subnet
 /mnt/nfs 192.168.0.0/24(rw,sync,no_subtree_check) #enter correct subnet
+```
 
 Finally, run these commands:
 
@@ -38,7 +42,9 @@ Once you have set up your environment, you can run the hdd_sanitisation.sh scrip
 
 If you're using a Mac, you may need to mount NFS share with the following command:
 
+```
 sudo mount -o resvport -t nfs 192.168.0.80:/mnt/nfs /Users/User/Documents/NFS/
+```
 
 ## License
 
