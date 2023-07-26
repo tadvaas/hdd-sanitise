@@ -24,9 +24,11 @@ In the exports file, add the following lines:
 
 Finally, run these commands:
 
-```sudo exportfs -a```
+```
+sudo exportfs -a
 sudo systemctl restart nfs-kernel-server
 sudo chmod +x hdd
+```
 
 ## Usage
 
